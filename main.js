@@ -62,3 +62,19 @@ const update = (
 const newitem = (date) => {
   console.log("In stock since ");
 };
+
+const show = () => {
+  console.log(`
+STATUS GUIDE (USE THIS NUMBERS FOR CALLING THE ARRAY USING ACTUAL AND NEWER PARAMETERS)
+ 0 = Blank
+ 1 = Learning
+ 2 = Normal (mon)
+ 3 = Normal
+ 4 = LIQUIDATION
+ 5 = Divest SO
+ 6 = Divest DNS
+ 7 = EOL
+ 8 = Discontinued/DNS
+ 9 = Special Order
+  `);
+};
