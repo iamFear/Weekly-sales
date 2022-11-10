@@ -60,7 +60,7 @@ const update = (
 };
 
 const newitem = (date) => {
-  console.log("In stock since ");
+  console.log(`In stock since ${date}`);
 };
 
 const show = () => {
@@ -78,3 +78,5 @@ STATUS GUIDE (USE THIS NUMBERS FOR CALLING THE ARRAY USING ACTUAL AND NEWER PARA
  9 = Special Order
   `);
 };
+
+// FUNCTION FOR SHOWING RESULT IN A POP-UP

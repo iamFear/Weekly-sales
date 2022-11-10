@@ -21,6 +21,7 @@
       body {
         font-family: "Roboto", sans-serif;
         font-size: 24px;
+        color: #fff;
       }
 
       header {
@@ -34,14 +35,49 @@
         align-items: center;
       }
 
-      h1 {
-        color: #fff;
+      .container {
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        text-align: center;
+      }
+
+      .container ol {
+        text-align: start;
+      }
+
+      ol {
+        list-style: none;
+
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1>Weekly Sales Report</h1>
+      <div class="container">
+        <h1>Weekly Sales Report Guide</h1>
+        <ol>
+          <li>0 = Blank</li>
+          <li>1 = Learning</li>
+          <li>2 = Normal (monitoring)</li>
+          <li>3 = Normal</li>
+          <li>4 = LIQUIDATION</li>
+          <li>5 = Divest SO</li>
+          <li>6 = Divest DNS</li>
+          <li>7 = EOL</li>
+          <li>8 = Discontinued/DNS</li>
+          <li>9 = Special Order</li>
+        </ol>
+
+        <h2>Use newitem() for items that have been added recently to IT</h2>
+      </div>
     </header>
 
     <script src="main.js"></script>
